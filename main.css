@@ -1,0 +1,26 @@
+@font-face {
+    font-family: BioFont;
+    src: url(AbhayaLibre-Regular.ttf);
+}
+
+.main-font { 
+    font-family: BioFont, Georgia; 
+    font-size: 20px;
+}
+
+.avatar {
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+    border: red medium solid;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.avatar__img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
